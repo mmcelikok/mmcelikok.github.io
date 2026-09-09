@@ -1,0 +1,6 @@
+# Optional: color-code venue abbreviations (the `abbr` field in _bibliography/papers.bib)
+# on the publications page. Key = abbr value, `color` = any CSS color.
+# Example:
+# "NeurIPS":
+#   url: https://neurips.cc/
+#   color: "#68448B"

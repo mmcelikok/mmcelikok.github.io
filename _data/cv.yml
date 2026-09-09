@@ -1,0 +1,223 @@
+cv:
+  name: Mustafa Mert Çelikok
+  headline: Assistant Professor, Multi-Agent Reinforcement Learning
+  email: celikok@imada.sdu.dk
+  location: Odense, Denmark
+
+  social_networks:
+    - network: GitHub
+      username: mmcelikok
+    - network: Google Scholar
+      username: _8yxhlMAAAAJ
+
+  sections:
+    Summary:
+      - Assistant Professor at the University of Southern Denmark, working on multi-agent reinforcement learning, cooperative AI, and Bayesian/model-based approaches to human-AI interaction. PhD from Aalto University (2023), postdoc at TU Delft (2023-2025).
+
+    Education:
+      - institution: Aalto University
+        location: Finland
+        area: Computer Science
+        degree: PhD
+        start_date: 2019
+        end_date: 2023
+        highlights:
+          - "Thesis: Model-based Multi-agent Reinforcement Learning for AI Assistants"
+          - "Advisor: Professor Samuel Kaski"
+          - "Opponent: Professor Matthew A. Taylor (University of Alberta)"
+          - Nominated for the Dean's Award
+
+      - institution: Aalto University
+        location: Finland
+        area: Machine Learning, Data Science and Artificial Intelligence (MACADAMIA)
+        degree: MSc
+        start_date: 2016
+        end_date: 2018
+        highlights:
+          - Completed with honours (highest distinction)
+
+      - institution: Selçuk University
+        location: Turkey
+        area: Computer Engineering
+        degree: BEng
+        start_date: 2011
+        end_date: 2015
+        highlights:
+          - First-class honours (highest distinction)
+
+    Academic Appointments:
+      - company: University of Southern Denmark, Department of Mathematics and Computer Science, Data Science Section
+        position: Tenure-track Assistant Professor
+        location: Denmark
+        start_date: 2025
+        end_date: present
+
+      - company: Delft University of Technology
+        position: Postdoctoral Researcher
+        location: The Netherlands
+        start_date: 2023
+        end_date: 2025
+        summary: >-
+          Project on investigating advanced multi-agent reinforcement learning techniques for
+          collaborative AI systems, funded for 3 years as part of the Dutch Hybrid Intelligence Centre.
+
+      - company: Dutch National Research Institute for Mathematics and Computer Science (CWI)
+        position: PhD Research Intern
+        location: The Netherlands
+        start_date: 2023-01
+        end_date: 2023-04
+        summary: >-
+          Highly selective doctoral internship programme with stipend. Worked with Professor Wouter
+          Koolen on the sample-complexity of Monte Carlo Tree Search.
+
+    Teaching Experience:
+      - company: Spring School on Reinforcement Learning and Control, CWI
+        position: Teaching Staff and Co-organizer
+        start_date: 2025
+        end_date: 2025
+        summary: Ran tutorials on reinforcement learning for an interdisciplinary group of students, plus organizational duties.
+
+      - company: ELLIS Summer School on Collaborative and Generative AI
+        position: Invited Tutorial Speaker
+        start_date: 2024
+        end_date: 2024
+
+      - company: SIKS Course on RL for Adaptive Hybrid Intelligence
+        position: Invited Lecturer
+        start_date: 2023
+        end_date: 2023
+        summary: Invited lecture on reinforcement learning for ad-hoc cooperation, part of a PhD course in the Netherlands Research School for Information and Knowledge Systems.
+
+      - company: "CS-E4070 - Probabilistic Modelling for Cognition and Interaction, Aalto University"
+        position: Co-organizer and Instructor
+        start_date: 2018
+        end_date: 2018
+        summary: Designed and implemented a Master's and PhD level special topic course together with Dr. Tomi Peltola.
+
+    Supervision:
+      - name: Mia Choi — MSc in Cognitive Robotics, TU Delft
+        summary: "\"Multi-Agent Reinforcement Learning for Portfolio Management\", in collaboration with Robeco Investment."
+        start_date: 2024
+        end_date: 2024
+
+      - name: Aranya Sinha — MSc in Computer Science, TU Delft
+        summary: "\"Risk-sensitive Reinforcement Learning for Portfolio Allocation\", in collaboration with Robeco Investment."
+        start_date: 2024
+        end_date: 2024
+
+      - name: Alex Hämäläinen — MSc in Computer Science, Aalto University
+        summary: "\"Differentiable User Models\""
+        start_date: 2021
+        end_date: 2021
+
+      - name: Ari-Pekka Härkönen — BSc in Computer Science, Aalto University
+        summary: "\"Computational Models of Theory of Mind\""
+        start_date: 2019
+        end_date: 2019
+
+    Grants and Awards:
+      - name: ELLIS PhD Student
+        date: 2019
+        summary: Nominated and accepted to the pan-European PhD programme of the European Lab for Learning and Intelligent Systems, as part of its first cohort.
+
+      - name: KAUTE Personal Research Grant
+        date: 2019
+        summary: Personal doctoral grant from the Finnish Science Foundation for Technology and Economics, received four times in a row (2019-2023), totalling 96,000 euros.
+
+      - name: Aalto University Competitive Co-department Funding Recipient
+        date: 2020
+        summary: PhD project granted co-department funding as part of an internal process.
+
+    Academic Leadership and Service:
+      - company: Danish Pioneer Centre for AI Programme on Learning and Optimal Control in Dynamical Systems
+        position: Co-director
+        start_date: 2026
+        end_date: 2028
+
+      - company: "ICLR Workshop: Multi-Agent Learning and Its Opportunities in the Era of Generative AI"
+        position: Co-organizer
+        start_date: 2026
+        end_date: 2026
+
+      - company: "AAAI Bridge Workshop: Collaborative AI and Modelling of Humans"
+        position: Co-organizer
+        start_date: 2024
+        end_date: 2025
+        summary: Co-organized both editions of this workshop at the AAAI Conference on Artificial Intelligence; the 2024 edition reached 300 registrations.
+
+      - company: Hybrid Intelligence Centre Reinforcement Learning SIG
+        position: Co-leader
+        start_date: 2023
+        end_date: 2025
+
+      - company: "Program Committee Member: NeurIPS, ICML, ICLR, AAAI, AAMAS, STOC, BNAIC, JMLR, JAIR"
+        position: Reviewer
+
+    Invited Workshops and Seminars:
+      - company: "Lorentz Centre Workshop: Research Environments for Human-Machine Teaming"
+        position: Invited Attendee
+        location: Leiden, The Netherlands
+        start_date: 2024
+        end_date: 2024
+
+      - company: "Dagstuhl Workshop: Model Learning for Improved Trustworthiness in Autonomous Systems"
+        position: Invited Attendee
+        location: Schloss Dagstuhl, Germany
+        start_date: 2023
+        end_date: 2023
+
+    Selected Publications:
+      - title: Distributional Active Inference
+        authors:
+          - Alperen Akgül
+          - Gecia Baykal
+          - Manuel Haussmann
+          - Mustafa Mert Çelikok
+          - Melih Kandemir
+        journal: Forty-third International Conference on Machine Learning (ICML)
+        date: 2026
+        url: https://openreview.net/forum?id=m3O4qYQ5hu
+
+      - title: On the Complexity of Learning to Cooperate with Populations of Socially Rational Agents
+        authors:
+          - Sreejato Bandyopadhyay
+          - Mustafa Mert Çelikok
+          - Robert Loftin
+        journal: Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+        date: 2025
+
+      - title: Value Improved Actor Critic Algorithms
+        authors:
+          - Yaniv Oren
+          - Moritz A. Zanger
+          - Pascal R. Van der Vaart
+          - Mustafa Mert Çelikok
+          - Matthijs T. J. Spaan
+          - Wendelin Böhmer
+        journal: Advances in Neural Information Processing Systems (NeurIPS)
+        date: 2025
+
+      - title: Uncoupled Learning of Differential Stackelberg Equilibria with Commitments
+        authors:
+          - Robert Loftin
+          - Mustafa Mert Çelikok
+          - Herke Hoof
+          - Samuel Kaski
+          - Frans A. Oliehoek
+        journal: Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+        date: 2024
+
+      - title: Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
+        authors:
+          - Mustafa Mert Çelikok
+          - Frans A. Oliehoek
+          - Samuel Kaski
+        journal: Proceedings of the 21st International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+        date: 2022
+
+      - title: Model-based Multi-agent Reinforcement Learning for AI Assistants
+        authors:
+          - Mustafa Mert Çelikok
+        journal: PhD thesis, Aalto University
+        date: 2023
+        url: https://aaltodoc.aalto.fi/handle/123456789/120725

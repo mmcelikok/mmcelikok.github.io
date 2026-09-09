@@ -1,0 +1,6 @@
+# Optional: link co-author names in the publications page to their homepage.
+# Key = co-author's bibtex last name (lowercase), value = list of name spellings + url.
+# Example:
+# "kaski":
+#   - firstname: ["Samuel", "S."]
+#     url: https://research.cs.aalto.fi/pml/personnel.shtml
