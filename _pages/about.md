@@ -6,7 +6,7 @@ subtitle: Assistant Professor in Multi-Agent Reinforcement Learning, University 
 
 profile:
   align: right
-  # image: prof_pic.jpg # TODO: add a real photo to assets/img/ and uncomment this line
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Mathematics and Computer Science</p>
