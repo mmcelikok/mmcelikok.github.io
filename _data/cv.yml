@@ -96,22 +96,22 @@ cv:
 
     Supervision:
       - name: Mia Choi — MSc in Cognitive Robotics, TU Delft
-        summary: "\"Multi-Agent Reinforcement Learning for Portfolio Management\", in collaboration with Robeco Investment."
+        summary: '"Multi-Agent Reinforcement Learning for Portfolio Management", in collaboration with Robeco Investment.'
         start_date: 2024
         end_date: 2024
 
       - name: Aranya Sinha — MSc in Computer Science, TU Delft
-        summary: "\"Risk-sensitive Reinforcement Learning for Portfolio Allocation\", in collaboration with Robeco Investment."
+        summary: '"Risk-sensitive Reinforcement Learning for Portfolio Allocation", in collaboration with Robeco Investment.'
         start_date: 2024
         end_date: 2024
 
       - name: Alex Hämäläinen — MSc in Computer Science, Aalto University
-        summary: "\"Differentiable User Models\""
+        summary: '"Differentiable User Models"'
         start_date: 2021
         end_date: 2021
 
       - name: Ari-Pekka Härkönen — BSc in Computer Science, Aalto University
-        summary: "\"Computational Models of Theory of Mind\""
+        summary: '"Computational Models of Theory of Mind"'
         start_date: 2019
         end_date: 2019
 

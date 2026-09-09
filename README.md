@@ -21,15 +21,15 @@ Both Scholar workflows key off `scholar_userid` in [`_data/socials.yml`](_data/s
 
 ## Updating content
 
-| What | Where |
-| --- | --- |
-| CV | [`_data/cv.yml`](_data/cv.yml) — auto-regenerates the PDF and the `/cv/` page |
-| Publications | [`_bibliography/papers.bib`](_bibliography/papers.bib) — auto-updated with new Scholar papers, or add entries by hand |
-| News / announcements | add a file to [`_news/`](_news/) |
-| Research themes | [`_projects/`](_projects/) |
-| Teaching | [`_teachings/`](_teachings/) |
+| What                  | Where                                                                                                                       |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| CV                    | [`_data/cv.yml`](_data/cv.yml) — auto-regenerates the PDF and the `/cv/` page                                               |
+| Publications          | [`_bibliography/papers.bib`](_bibliography/papers.bib) — auto-updated with new Scholar papers, or add entries by hand       |
+| News / announcements  | add a file to [`_news/`](_news/)                                                                                            |
+| Research themes       | [`_projects/`](_projects/)                                                                                                  |
+| Teaching              | [`_teachings/`](_teachings/)                                                                                                |
 | Bio / contact / photo | [`_pages/about.md`](_pages/about.md) — add a real photo to `assets/img/` and uncomment the `image:` line in the frontmatter |
-| Social links | [`_data/socials.yml`](_data/socials.yml) |
+| Social links          | [`_data/socials.yml`](_data/socials.yml)                                                                                    |
 
 For anything not covered above (design tweaks, dark mode, comments via Giscus, analytics, etc.), see [`docs/CUSTOMIZE.md`](docs/CUSTOMIZE.md) and [`docs/FAQ.md`](docs/FAQ.md).
 
