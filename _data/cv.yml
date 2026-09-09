@@ -45,7 +45,11 @@ cv:
         highlights:
           - First-class honours (highest distinction)
 
-    Academic Appointments:
+    # NOTE: section title must be exactly "Experience" — the al_folio_cv gem only
+    # renders Education/Experience/Awards/Publications/etc. by exact name match;
+    # anything else silently renders empty. This merges appointments + teaching +
+    # service + invited talks into one chronological list for that reason.
+    Experience:
       - company: University of Southern Denmark, Department of Mathematics and Computer Science, Data Science Section
         position: Tenure-track Assistant Professor
         location: Denmark
@@ -70,7 +74,27 @@ cv:
           Highly selective doctoral internship programme with stipend. Worked with Professor Wouter
           Koolen on the sample-complexity of Monte Carlo Tree Search.
 
-    Teaching Experience:
+      - company: Danish Pioneer Centre for AI Programme on Learning and Optimal Control in Dynamical Systems
+        position: Co-director
+        start_date: 2026
+        end_date: 2028
+
+      - company: Hybrid Intelligence Centre Reinforcement Learning SIG
+        position: Co-leader
+        start_date: 2023
+        end_date: 2025
+
+      - company: "AAAI Bridge Workshop: Collaborative AI and Modelling of Humans"
+        position: Co-organizer
+        start_date: 2024
+        end_date: 2025
+        summary: Co-organized both editions of this workshop at the AAAI Conference on Artificial Intelligence; the 2024 edition reached 300 registrations.
+
+      - company: "ICLR Workshop: Multi-Agent Learning and Its Opportunities in the Era of Generative AI"
+        position: Co-organizer
+        start_date: 2026
+        end_date: 2026
+
       - company: Spring School on Reinforcement Learning and Control, CWI
         position: Teaching Staff and Co-organizer
         start_date: 2025
@@ -95,129 +119,83 @@ cv:
         summary: Designed and implemented a Master's and PhD level special topic course together with Dr. Tomi Peltola.
 
     Supervision:
-      - name: Mia Choi — MSc in Cognitive Robotics, TU Delft
-        summary: '"Multi-Agent Reinforcement Learning for Portfolio Management", in collaboration with Robeco Investment.'
-        start_date: 2024
-        end_date: 2024
+      - bullet: '**2024** — Mia Choi, MSc in Cognitive Robotics, TU Delft: "Multi-Agent Reinforcement Learning for Portfolio Management", in collaboration with Robeco Investment.'
+      - bullet: '**2024** — Aranya Sinha, MSc in Computer Science, TU Delft: "Risk-sensitive Reinforcement Learning for Portfolio Allocation", in collaboration with Robeco Investment.'
+      - bullet: '**2021** — Alex Hämäläinen, MSc in Computer Science, Aalto University: "Differentiable User Models"'
+      - bullet: '**2019** — Ari-Pekka Härkönen, BSc in Computer Science, Aalto University: "Computational Models of Theory of Mind"'
 
-      - name: Aranya Sinha — MSc in Computer Science, TU Delft
-        summary: '"Risk-sensitive Reinforcement Learning for Portfolio Allocation", in collaboration with Robeco Investment.'
-        start_date: 2024
-        end_date: 2024
+    # Not named "Awards": that al_folio_cv section template reads entry.title, which
+    # RenderCV's Python side treats as a PublicationEntry marker requiring `authors`.
+    # Plain bullets side-step the conflict and render identically both places.
+    Awards and Grants:
+      - bullet: "**2019** — ELLIS PhD Student. Nominated and accepted to the pan-European PhD programme of the European Lab for Learning and Intelligent Systems, as part of its first cohort."
+      - bullet: "**2019** — KAUTE Personal Research Grant. Personal doctoral grant from the Finnish Science Foundation for Technology and Economics, received four times in a row (2019-2023), totalling 96,000 euros."
+      - bullet: "**2020** — Aalto University Competitive Co-department Funding Recipient. PhD project granted co-department funding as part of an internal process."
 
-      - name: Alex Hämäläinen — MSc in Computer Science, Aalto University
-        summary: '"Differentiable User Models"'
-        start_date: 2021
-        end_date: 2021
-
-      - name: Ari-Pekka Härkönen — BSc in Computer Science, Aalto University
-        summary: '"Computational Models of Theory of Mind"'
-        start_date: 2019
-        end_date: 2019
-
-    Grants and Awards:
-      - name: ELLIS PhD Student
-        date: 2019
-        summary: Nominated and accepted to the pan-European PhD programme of the European Lab for Learning and Intelligent Systems, as part of its first cohort.
-
-      - name: KAUTE Personal Research Grant
-        date: 2019
-        summary: Personal doctoral grant from the Finnish Science Foundation for Technology and Economics, received four times in a row (2019-2023), totalling 96,000 euros.
-
-      - name: Aalto University Competitive Co-department Funding Recipient
-        date: 2020
-        summary: PhD project granted co-department funding as part of an internal process.
-
-    Academic Leadership and Service:
-      - company: Danish Pioneer Centre for AI Programme on Learning and Optimal Control in Dynamical Systems
-        position: Co-director
-        start_date: 2026
-        end_date: 2028
-
-      - company: "ICLR Workshop: Multi-Agent Learning and Its Opportunities in the Era of Generative AI"
-        position: Co-organizer
-        start_date: 2026
-        end_date: 2026
-
-      - company: "AAAI Bridge Workshop: Collaborative AI and Modelling of Humans"
-        position: Co-organizer
-        start_date: 2024
-        end_date: 2025
-        summary: Co-organized both editions of this workshop at the AAAI Conference on Artificial Intelligence; the 2024 edition reached 300 registrations.
-
-      - company: Hybrid Intelligence Centre Reinforcement Learning SIG
-        position: Co-leader
-        start_date: 2023
-        end_date: 2025
-
-      - company: "Program Committee Member: NeurIPS, ICML, ICLR, AAAI, AAMAS, STOC, BNAIC, JMLR, JAIR"
-        position: Reviewer
+    Service:
+      - bullet: "Program Committee Member: NeurIPS, ICML, ICLR, AAAI, AAMAS, STOC, BNAIC, JMLR, JAIR"
 
     Invited Workshops and Seminars:
-      - company: "Lorentz Centre Workshop: Research Environments for Human-Machine Teaming"
-        position: Invited Attendee
-        location: Leiden, The Netherlands
-        start_date: 2024
-        end_date: 2024
+      - bullet: "**2024** — Invited Attendee, Lorentz Centre Workshop: Research Environments for Human-Machine Teaming, Leiden, The Netherlands."
+      - bullet: "**2023** — Invited Attendee, Dagstuhl Workshop: Model Learning for Improved Trustworthiness in Autonomous Systems, Schloss Dagstuhl, Germany."
 
-      - company: "Dagstuhl Workshop: Model Learning for Improved Trustworthiness in Autonomous Systems"
-        position: Invited Attendee
-        location: Schloss Dagstuhl, Germany
-        start_date: 2023
-        end_date: 2023
-
-    Selected Publications:
+    # "Publications" is one of al_folio_cv's recognized section names, but its
+    # template reads entry.publisher (not entry.journal) and does not display
+    # authors at all on the website — the full author list lives on /publications/.
+    # Author names below are deliberately kept as initials, matching this CV's
+    # official citation list, rather than guessing full first names.
+    Publications:
       - title: Distributional Active Inference
         authors:
-          - Alperen Akgül
-          - Gecia Baykal
+          - Abdullah Akgül
+          - Gülçin Baykal
           - Manuel Haussmann
           - Mustafa Mert Çelikok
           - Melih Kandemir
-        journal: Forty-third International Conference on Machine Learning (ICML)
+        publisher: Forty-third International Conference on Machine Learning (ICML)
         date: 2026
         url: https://openreview.net/forum?id=m3O4qYQ5hu
 
       - title: On the Complexity of Learning to Cooperate with Populations of Socially Rational Agents
         authors:
-          - Sreejato Bandyopadhyay
+          - Saptarashmi Bandhopadhyay
           - Mustafa Mert Çelikok
-          - Robert Loftin
-        journal: Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+          - R. Loftin
+        publisher: Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
         date: 2025
 
       - title: Value Improved Actor Critic Algorithms
         authors:
-          - Yaniv Oren
-          - Moritz A. Zanger
-          - Pascal R. Van der Vaart
+          - Y. Oren
+          - M. A. Zanger
+          - P. R. Van der Vaart
           - Mustafa Mert Çelikok
-          - Matthijs T. J. Spaan
-          - Wendelin Böhmer
-        journal: Advances in Neural Information Processing Systems (NeurIPS)
+          - M. T. J. Spaan
+          - W. Bohmer
+        publisher: Advances in Neural Information Processing Systems (NeurIPS)
         date: 2025
 
       - title: Uncoupled Learning of Differential Stackelberg Equilibria with Commitments
         authors:
-          - Robert Loftin
+          - R. Loftin
           - Mustafa Mert Çelikok
-          - Herke Hoof
+          - H. Van Hoof
           - Samuel Kaski
-          - Frans A. Oliehoek
-        journal: Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+          - F. A. Oliehoek
+        publisher: Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
         date: 2024
 
       - title: Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
         authors:
           - Mustafa Mert Çelikok
-          - Frans A. Oliehoek
+          - F. A. Oliehoek
           - Samuel Kaski
-        journal: Proceedings of the 21st International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+        publisher: Proceedings of the 21st International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
         date: 2022
 
       - title: Model-based Multi-agent Reinforcement Learning for AI Assistants
         authors:
           - Mustafa Mert Çelikok
-        journal: PhD thesis, Aalto University
+        publisher: PhD thesis, Aalto University
         date: 2023
         url: https://aaltodoc.aalto.fi/handle/123456789/120725
