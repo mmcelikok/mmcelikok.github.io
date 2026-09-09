@@ -1,0 +1,4 @@
+nbconvert
+pyyaml
+rendercv[full]==2.8 # pinned: newer releases have broken schema compat with _data/cv.yml in the past
+scholarly
